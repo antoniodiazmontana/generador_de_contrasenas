@@ -69,4 +69,3 @@ Haz tus cambios y haz commit de ellos: git commit -m 'Añadida nueva caracterís
 Empuja tus cambios a tu repositorio remoto: git push origin feature/nueva-caracteristica.
 
 Crea un pull request para que se revisen y fusionen tus cambios.
-Licencia
