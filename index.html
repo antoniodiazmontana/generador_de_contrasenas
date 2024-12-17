@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Generador de contraseñas seguras con opciones personalizables."
+    />
+    <title>Generador de Contraseñas Seguras</title>
+  <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mode-toggle">
+        <label for="darkModeToggle">Modo Oscuro:</label>
+        <input type="checkbox" id="darkModeToggle" />
+      </div>
+
+      <h1>Generador de Contraseñas Seguras</h1>
+      <div class="password-container">
+        <input type="text" id="password" readonly />
+        <button id="copyButton" aria-label="Copiar contraseña al portapapeles">
+          Copiar
+        </button>
+      </div>
+
+      <div class="options">
+        <label for="length">Longitud de la Contraseña:</label>
+        <input
+          type="number"
+          id="length"
+          value="12"
+          min="6"
+          max="20"
+          aria-label="Seleccionar longitud de la contraseña"
+        />
+      </div>
+
+      <div class="checkboxes">
+        <label
+          ><input type="checkbox" id="includeUppercase" checked /> Incluir
+          mayúsculas</label
+        >
+        <label
+          ><input type="checkbox" id="includeLowercase" checked /> Incluir
+          minúsculas</label
+        >
+        <label
+          ><input type="checkbox" id="includeNumbers" checked /> Incluir
+          números</label
+        >
+        <label
+          ><input type="checkbox" id="includeSpecial" checked /> Incluir
+          caracteres especiales</label
+        >
+      </div>
+
+      <button id="generateButton" aria-label="Generar contraseña segura">
+        Generar Contraseña
+      </button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
