@@ -24,7 +24,7 @@ No special installation is required—just a modern web browser that supports HT
 ### To Use:
 Download or clone this repository to your machine.
 ```bash
-https://github.com/antoniodiazmontana/generador_de_contrasenas.git
+https://github.com/antoniodiazmontana/password_generator.git
 ```
 
 Open the index.html file in any modern browser (Chrome, Firefox, Edge, Safari).
