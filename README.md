@@ -18,18 +18,22 @@ CSS: For styling and responsive design.
 JavaScript: For password generation functionality and dark mode activation.
 
 ## Installation
-Requirements
+### Requirements
 No special installation is required—just a modern web browser that supports HTML5 and CSS3. This project is designed to run locally without additional servers.
 
 ### To Use:
 Download or clone this repository to your machine.
+```bash
+https://github.com/antoniodiazmontana/generador_de_contrasenas.git
+```
 
 Open the index.html file in any modern browser (Chrome, Firefox, Edge, Safari).
 
 That’s it! You can start generating secure passwords.
-Usage
 
-### Generate Password:
+### Usage
+
+## Generate Password:
 Enter the desired password length (between 6 and 20 characters).
 
 Check the boxes to include uppercase, lowercase, numbers, and special characters.
@@ -39,7 +43,7 @@ Click the "Generate Password" button to receive a random password.
 Copy Password:
 Click the "Copy" button to copy the generated password to your clipboard.
 
-### Dark Mode:
+## Dark Mode:
 Toggle the "Dark Mode" switch to alternate between light and dark themes. Preferences are saved between sessions using the localStorage feature.
 
 ## Customization
